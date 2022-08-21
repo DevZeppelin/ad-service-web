@@ -2,14 +2,14 @@ import React from "react";
 
 const GridComponent = ({name, src}) => {
   return (
-    <div className="relative h-72">
+<div className="relative">
       <div className="indexGridContainer">
         <div className="indexGridImageText rounded-b-2xl">{name}</div>
         <img
           src={src}
           
           alt="building icon logo Ad Service agua y petróleo"
-          className="gridImage imagen-filtro rounded-2xl"
+          className="gridImage imagen-filtro rounded-2xl h-full"
 
           />
       </div>
