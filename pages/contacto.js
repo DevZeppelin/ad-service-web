@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import MainBarButton from "../components/MainBarButton";
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import Fade from "react-reveal/Fade";
 import PageTitle from "../components/PageTitle";
 
 const Contacto = () => {
@@ -38,7 +37,6 @@ const Contacto = () => {
             <b>Dirección</b>: Mariano Moreno 50 - Rodeo del Medio - Maipú - Mendoza
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-2 p-6 ">
-            <Fade big>
               <div>
                 <a
                   href="https://api.whatsapp.com/send?phone=5492615990759"
@@ -55,8 +53,6 @@ const Contacto = () => {
                   />
                 </a>
               </div>
-            </Fade>
-            <Fade big>
               <div>
                 <a
                   href="https://api.whatsapp.com/send?phone=5492615990759"
@@ -73,8 +69,6 @@ const Contacto = () => {
                   />
                 </a>
               </div>
-            </Fade>
-            <Fade big>
               <div>
                 <a
                   href="mailto:info@adservice.com.ar"
@@ -91,7 +85,6 @@ const Contacto = () => {
                   />
                 </a>
               </div>
-            </Fade>
           </div>
         </div>
         <section className="text-gray-400 bg-gray-900 body-font relative">

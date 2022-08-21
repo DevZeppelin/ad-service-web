@@ -8,7 +8,6 @@ import SectionWelcome from "../components/sections/SectionWelcome";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaRecycle, FaUserCog } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
-import Fade from "react-reveal/Fade";
 import GridComponent from "../components/GridComponent";
 
 export default function Home() {
@@ -47,96 +46,50 @@ export default function Home() {
         </section>
         <section>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8 md:m-24 text-center fadeIn element">
-            <Fade left>
               <div className="my-auto font-bold flex">
                 <div className="w-3 h-32 bg-dgreen my-auto"></div>
                 <p className="text-lg m-6">Contamos con una amplia variedad de servicios en diferentes rubros: Agua, Petróleo, Agro y Bodega</p>
               </div>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="REPARACION DE CONEXIONES API Y ESPECIALES"
                     src="0001.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="APORTE DURO EN FRESAS Y ZAPATOS"
                     src="0002.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="RECTIFICADO DE FRESAS, ZAPATOS, ESTABILIZADORES"
                     src="0003.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="FABRICACION DE HERAMIENTAS ▶"
                     src="0004.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="Elevadores, Reducciones, Fresas, Estabilizadores."
                     src="0005.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent name="MECANIZADO GENERAL" src="0006.png" />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="GRANALLADO CON MICROESFERAS DE VIDRIO"
                     src="0007.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent
                     name="MANTENIMIENTO DE EQUIPOS DE BOMBEO"
                     src="0008.png"
                   />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent name="METALURGIA INDUSTRIAL" src="0009.png" />
-                </a>
-            </Fade>
-            <Fade bottom>
-                <a href="">
                   <GridComponent name="LOGISTICA" src="0010.png" />
-                </a>
-            </Fade>
-            <Fade bottom>
               <div className="m-6 space-y-4 md:space-y-4 text-center my-auto element">
                 <h2 className="font-bold text-xl">Más sobre nuestros servicios</h2>
                 <p>
                   Para ver una lista completa de nuestros servicio entrá acá:
                 </p>
                 <NextLink href="/servicios">
-                  <Fade right>
                     <button className="btn">Servicios</button>
-                  </Fade>
                 </NextLink>
               </div>
-            </Fade>
           </div>
         </section>
 
@@ -163,11 +116,9 @@ export default function Home() {
               </span>
 
               <Link href="/contacto">
-                <Fade left>
                   <button className="btn uppercase">
                     Reservá una visita con nosotros
                   </button>
-                </Fade>
               </Link>
             </div>
           </div>
@@ -177,7 +128,6 @@ export default function Home() {
           <div className="text-center pt-16">
             <h2 className="text-3xl font-bold pb-12">¿Por qué elegirnos?</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 md:px-32 pb-16 ">
-              <Fade bottom>
                 <div className="space-y-8 pb-6">
                   <BsFillPersonCheckFill className="text-6xl text-dgreen mx-auto" />
                   <h3 className="font-bold">
@@ -189,8 +139,6 @@ export default function Home() {
                     Entendemos el valor de una persona y su historia.
                   </p>
                 </div>
-              </Fade>
-              <Fade bottom>
                 <div className="space-y-8 pb-6">
                   <FaRecycle className="text-6xl text-dgreen mx-auto" />
                   <h3 className="font-bold">Cuidado del medio ambiente</h3>
@@ -200,8 +148,6 @@ export default function Home() {
                     y salud.
                   </p>
                 </div>
-              </Fade>
-              <Fade bottom>
                 <div className="space-y-8 pb-6">
                   <AiOutlineStar className="text-6xl text-dgreen mx-auto" />
                   <h3 className="font-bold">
@@ -213,8 +159,6 @@ export default function Home() {
                     responsabilidad.
                   </p>
                 </div>
-              </Fade>
-              <Fade bottom>
                 <div className="space-y-8 pb-6">
                   <FaUserCog className="text-6xl text-dgreen mx-auto" />
                   <h3 className="font-bold">Profesionales capacitados</h3>
@@ -224,7 +168,6 @@ export default function Home() {
                     proyectos asignados.
                   </p>
                 </div>
-              </Fade>
             </div>
           </div>
         </section>

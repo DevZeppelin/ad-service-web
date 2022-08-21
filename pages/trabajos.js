@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
-import Fade from "react-reveal/Fade";
 import PageTitle from "../components/PageTitle";
 import Link from "next/dist/client/link";
 import GridComponent from "../components/GridComponent";

@@ -2,7 +2,6 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import { BiCheckShield } from "react-icons/bi";
 import { FaEye } from "react-icons/fa";
-import Fade from "react-reveal/Fade";
 import PageTitle from "../components/PageTitle";
 
 const QuienesSomos = () => {
@@ -44,7 +43,6 @@ const QuienesSomos = () => {
           </div>
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-16 px-8 md:px-32 pb-16 text-center">
-          <Fade bottom>
             <div className="space-y-4">
               <BiCheckShield className="mx-auto text-4xl text-dgreen" />
               <h2 className="text-2xl">Nuestra Misión</h2>
@@ -60,8 +58,6 @@ const QuienesSomos = () => {
                 constante.
               </p>
             </div>
-          </Fade>
-          <Fade bottom>
             <div className="space-y-4">
               <FaEye className="mx-auto text-4xl text-dgreen " />
               <h2 className="text-2xl">Nuestra Visión</h2>
@@ -70,7 +66,6 @@ const QuienesSomos = () => {
                 Mecanizados y Reparaciones del sector Petrolero y afines, con elevado compromiso, cuidando el medio ambiente, la seguridad y la salud de las personas.
               </p>
             </div>
-          </Fade>
         </section>
       </Layout>
     </div>
