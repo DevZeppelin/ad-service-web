@@ -20,6 +20,7 @@
     @apply w-full text-white border-b-2 border-dgreen h-16 absolute bg-dgreen bottom-0 z-10 py-3 hover:bg-darkGray uppercase font-bold transition duration-500 px-2;
 }
 
+
 .gridImage {
     @apply  border-2 border-gray w-full;
 }
