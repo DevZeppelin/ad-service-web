@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const NavBar = ({ toggleNav, classHome, classQuienesSomos, classServicios, classContacto, classCalidad }) => {
+const NavBar = ({ toggleNav, classHome, classQuienesSomos, classServicios, classTrabajos, classContacto, classCalidad }) => {
   return (
     <div className="flex my-0 md:py-0 justify-between px-0 bg-secundary text-white text-xl">
       <div className="hidden md:flex">
@@ -14,6 +14,9 @@ const NavBar = ({ toggleNav, classHome, classQuienesSomos, classServicios, class
         </Link>
         <Link href="/servicios">
           <a className={`px-3 hover:bg-dgreen py-6 ${classServicios}`}>Servicios</a>
+        </Link>
+        <Link href="/trabajos">
+          <a className={`px-3 hover:bg-dgreen py-6 ${classTrabajos}`}>Trabajos</a>
         </Link>
         <Link href="/calidad">
           <a className={`px-3 hover:bg-dgreen py-6 ${classCalidad}`}>Política de calidad</a>

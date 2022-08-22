@@ -16,6 +16,9 @@ const MobileNavBar = ({ open }) => {
         <Link href="/servicios">
           <a className="mr-2 mt-5 px-3 hover:border-black">Servicios</a>
         </Link>        
+        <Link href="/trabajos">
+          <a className="mr-2 mt-5 px-3 hover:border-black">Trabajos</a>
+        </Link>        
         <Link href="/calidad">
           <a className="mr-2 mt-5 px-3 hover:border-black">Política de Calidad</a>
         </Link>        

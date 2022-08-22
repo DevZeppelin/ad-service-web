@@ -16,11 +16,11 @@ const Servicios = () => {
           <PageTitle text="Nuestros Servicios" />
 
           <section className="grid grid-cols-1 md:grid-cols-2 mb-8">
-            <div className="mx-12 md:mx-32 mt-8 text-center fadeIn element py-8">
+            <div className="mx-8 md:mx-32 text-center text-sm md:text-base fadeIn element py-8">
               <h2 className="text-3xl text-left pb-4">Lista de servicios</h2>
 
               <ul className="space-y-6">
-                <ul className="text-justify">
+                <ul className="text-justify space-y-4">
                   <h3 className="text-2xl pt-6">SERVICIO PETROLEO</h3>
 
                   <li>• FABRICACION DE HERRAMIENTAS</li>
@@ -53,7 +53,7 @@ const Servicios = () => {
                   <li>• LOGISTICA 24HS</li>
                 </ul>
 
-                <ul className="text-justify">
+                <ul className="text-justify space-y-4">
                   <h3 className="text-2xl pt-6">SERVICIO AGRO</h3>
                   <li>• EXTRACCION Y COLOCACION DE BOMBAS DE PROFUNDIDAD</li>
                   <li>• MANTENIMIENTO DE ELECTROBOMBAS SUMERGIBLES</li>
@@ -68,7 +68,7 @@ const Servicios = () => {
                   <li>• LOGISTICA 24HS</li>
                 </ul>
 
-                <ul className="text-justify">
+                <ul className="text-justify space-y-4">
                   <h3 className="text-2xl pt-6">SERVICIO BODEGA</h3>
                   <li>• REPARACION DE TAMIZ</li>
                   <li>• REPARACION DE BOMBAS A TORNILLO</li>
@@ -89,7 +89,7 @@ const Servicios = () => {
               <GridComponent name="Cupero Tamiz (Bodega)" src="/s-4-cuerpo-tamiz.png" />
               <GridComponent name="Sustitutos" src="/s-5-sustitutos.png" />
               <GridComponent name="Piezas varias" src="/s-6-piezas-varias.png" />
-              <Link href="">
+              <Link href="trabajos">
                 <div className="rounded-lg p-8 text-xl my-auto btn m-8">
                  Ver más Fotos de trabajos
                 </div>

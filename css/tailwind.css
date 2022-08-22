@@ -17,10 +17,10 @@
 }
 
 .indexGridImageText {
-    @apply w-full text-white border-b-2 border-dgreen h-16 absolute bg-dgreen bottom-0 z-10 py-3 hover:bg-darkGray uppercase font-bold transition duration-500 px-2;
+    @apply w-full text-white text-sm md:text-base border-b-2 border-dgreen h-14 absolute bg-dgreen bottom-0 z-10 py-2 hover:bg-darkGray uppercase font-bold transition duration-500 px-1;
 }
 
 
 .gridImage {
-    @apply  border-2 border-gray w-full;
+    @apply  border-2 border-gray w-full pb-6;
 }
