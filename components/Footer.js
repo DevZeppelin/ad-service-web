@@ -28,7 +28,12 @@ const Footer = () => {
 
         <div className="text-lg">
           <h2 className="font-extrabold">¡Contactanos hoy!</h2>
-          
+
+          <a
+            href="https://api.whatsapp.com/send?phone=5492634739363"
+            target="_blank"
+            rel="noopener"
+          >
             <MainBarButton
               logo={
                 <FiPhoneCall className="text-lgreen text-2xl flex my-auto m-2" />
@@ -37,7 +42,8 @@ const Footer = () => {
               description="2634-739363"
               classType=""
             />
-         
+          </a>
+
           <a
             href="https://api.whatsapp.com/send?phone=5492615990759"
             target="_blank"

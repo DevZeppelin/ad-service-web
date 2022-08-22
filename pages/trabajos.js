@@ -63,9 +63,9 @@ const Trabajos = () => {
             <h2 className="text-3xl text-center pb-4 m-12 ">Algunas de nuestras máquinas</h2>
             <div className="mx-6 md:mx-32 mt-8 text-center fadeIn element grid grid-cols-1 md:grid-cols-3 gap-4">
              
-              <GridComponent name="1" src="/maquina1.png" />
-              <GridComponent name="2" src="/maquina2.png" />
-              <GridComponent name="3" src="/maquina3.png" />
+              <GridComponent name="maq 01" src="/maquina1.png" />
+              <GridComponent name="maq 02" src="/maquina2.png" />
+              <GridComponent name="maq 03" src="/maquina3.png" />
      
               </div>
           </section>
