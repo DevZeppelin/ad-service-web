@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
-import Link from "next/dist/client/link";
 import GridComponent from "../components/GridComponent";
 
 const Trabajos = () => {
@@ -59,15 +58,7 @@ const Trabajos = () => {
               
 
             </div>
-
-            <h2 className="text-3xl text-center pb-4 m-12 ">Algunas de nuestras máquinas</h2>
-            <div className="mx-6 md:mx-32 mt-8 text-center fadeIn element grid grid-cols-1 md:grid-cols-3 gap-4">
-             
-              <GridComponent name="maq 01" src="/maquina1.png" />
-              <GridComponent name="maq 02" src="/maquina2.png" />
-              <GridComponent name="maq 03" src="/maquina3.png" />
-     
-              </div>
+            
           </section>
         </div>
       </Layout>

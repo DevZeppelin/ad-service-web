@@ -5,12 +5,12 @@
 body {
   background-color: #eeeeee;
   margin: 0;
-  font-family: "Ruda", sans-serif;  
+  
 }
 
-/* .raleway {
-  font-family: 'Roboto Condensed', sans-serif;
-} */
+.raleway {
+  font-family: "Ruda", sans-serif;  
+}
 
 html {
   scroll-behavior: smooth;

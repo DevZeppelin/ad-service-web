@@ -16,7 +16,7 @@ const Servicios = () => {
           <PageTitle text="Política de Calidad" />
           <div>
             <section className="bg-gradient">
-              <div className="text-center space-y-6 p-8 md:p-16 raleway">
+              <div className="text-center space-y-6 p-8 md:p-16">
 
                 <h2 className="text-2xl font-bold animate-bounce">POLITICA DE CALIDAD AD SERVICE</h2>
 

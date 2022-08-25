@@ -6,7 +6,8 @@ export default class MyDocument extends Document {
       
       <Html lang="es">
         <Head />
-        <body>
+        
+        <body className="raleway">
           <Main />
           <NextScript />
         </body>
