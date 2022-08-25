@@ -12,7 +12,7 @@ const TopMainScreen = () => {
           <a href="">
             <img
               src="/logo.png"
-              alt="building icon logo Ad Service agua y petróleo"
+              alt="building icon logo Ad Service petróleo y agua"
               height="200"
               width="200"
               className="pt-2"

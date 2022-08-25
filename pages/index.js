@@ -14,16 +14,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>AD Service - Agua y petróleo</title>
+        <title>AD Service - Petróleo y agua</title>
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="ad service, agua, petróleo, servicios agua y petróleo, mendoza, argentina"
+          content="ad service, agua, petróleo, servicios petróleo y agua, mendoza, argentina"
         />
         <meta
           name="keywords"
-          content="ad service, agua, petróleo, servicios agua y petróleo, mendoza, argentina"
+          content="ad service, agua, petróleo, servicios petróleo y agua, mendoza, argentina"
         />
         <meta name="author" content="Gino Pietrobon" />
       </Head>
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8 md:m-24 text-center fadeIn element">
               <div className="my-auto font-bold flex">
                 <div className="w-3 h-32 bg-dgreen my-auto"></div>
-                <p className="text-lg m-6">Contamos con una amplia variedad de servicios en diferentes rubros: Agua, Petróleo, Agro y Bodega</p>
+                <p className="text-lg m-6">Contamos con una amplia variedad de servicios en diferentes rubros: Petróleo, Agua, Agro y Bodega</p>
               </div>
                   <GridComponent
                     name="REPARACION DE CONEXIONES API Y ESPECIALES"
@@ -79,7 +79,7 @@ export default function Home() {
                     name="MANTENIMIENTO DE EQUIPOS DE BOMBEO"
                     src="0008.png"
                   />
-                  <GridComponent name="METALURGIA INDUSTRIAL" src="0009.png" />
+                  <GridComponent name="SERVICIO DE CONTROL DE CALIDAD PARA EMPRESAS" src="0009.png" />
                   <GridComponent name="LOGISTICA" src="0010.png" />
               <div className="m-6 space-y-4 md:space-y-4 text-center my-auto element">
                 <h2 className="font-bold text-xl">Más sobre nuestros servicios</h2>
@@ -98,7 +98,7 @@ export default function Home() {
             <div></div>
             <div className="space-y-6 bg-lgreen bg-opacity-50 p-12 rounded-2xl">
               <h2 className="text-3xl fadeIn">
-                Empresa de servicios de Agua y Petróleo
+                Empresa de servicios de Petróleo y Agua
               </h2>
 
               <span className="text-base">

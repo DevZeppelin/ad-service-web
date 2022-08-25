@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ruda&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+
 body {
   background-color: #eeeeee;
   margin: 0;
@@ -9,6 +11,20 @@ body {
   font-family: "Ruda", sans-serif;
 }
 
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.bg-gradient {
+  background-image: -webkit-linear-gradient(
+    top left,
+    #2d669a 0%,  
+    #d6d4d4 45%,
+    #0a9ee6 100%
+    
+  );
 }

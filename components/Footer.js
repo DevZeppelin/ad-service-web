@@ -13,13 +13,13 @@ const Footer = () => {
               <a href="">
                 <img
                   src="/logo.png"
-                  alt="building icon logo Ad Service agua y petróleo"
+                  alt="building icon logo Ad Service petróleo y agua"
                   height="200"
                   width="200"
                   className="mx-auto"
                 />
                 <p className="text-lgreen text-xl mt-4 font-bold text-center">
-                  Agua y petróleo
+                  Petróleo y agua
                 </p>
               </a>
             </Link>

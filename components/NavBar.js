@@ -29,7 +29,7 @@ const NavBar = ({ toggleNav, classHome, classQuienesSomos, classDocumentos, clas
           <a className={`px-3 hover:bg-dgreen py-6 ${classContacto}`}>Contactanos</a>
         </Link>
       </div>
-      <div className="p-2 ml-2 md:hidden flex justify-start w-10 text-4xl">
+      <div className="p-2 ml-2 md:hidden flex justify-start w-8 text-3xl">
         <button
           onClick={toggleNav}
           aria-label="Hamburguer Button of Main Content"
@@ -39,8 +39,8 @@ const NavBar = ({ toggleNav, classHome, classQuienesSomos, classDocumentos, clas
       </div>
 
       <div className=" flex justify-end">
-        <div className="bg-dgreen w-16 md:w-64 transform skew-x-12 m-0 translate-x-12 md:translate-x-56 overflow-hidden"></div>        
-        <div className=" bg-dgreen w-16 md:w-64 transform  m-0 overflow-hidden"></div>        
+        <div className="bg-dgreen w-16 md:w-56 transform skew-x-12 m-0 translate-x-12 md:translate-x-48 overflow-hidden"></div>        
+        <div className=" bg-dgreen w-16 md:w-56 transform  m-0 overflow-hidden"></div>        
       </div>
     </div>
   );
