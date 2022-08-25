@@ -15,8 +15,8 @@ const Trabajos = () => {
         <div>
           <PageTitle text="Nuestros Trabajos" />
 
-          <section className="mb-8">
-            <h2 className="text-3xl text-center pb-4 m-12 ">Algunos de nuestros trabajos</h2>
+          <section className="pb-8 bg-gradient">
+            <h2 className="text-3xl text-center pb-4 p-12 ">Algunos de nuestros trabajos</h2>
             <div className="mx-6 md:mx-32 mt-8 text-center fadeIn element grid grid-cols-1 md:grid-cols-3 gap-4">
              
               <GridComponent name="Aporte Fresa Plana" src="/t1-aporteFresaPlana.png" />
