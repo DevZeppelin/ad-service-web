@@ -16,7 +16,7 @@ const Servicios = () => {
           <PageTitle text="Nuestros Servicios" />
 
           <section className="grid grid-cols-1 md:grid-cols-2 pb-10 bg-gradient">
-            <div className="mx-8 md:mx-32 text-center text-sm md:text-base fadeIn element py-8">
+            <div className="mx-8 md:mx-32 text-center text-sm md:text-lg font-bold fadeIn element py-8">
               <h2 className="text-3xl text-left pb-4">Lista de servicios</h2>
 
               <ul className="space-y-6 raleway">

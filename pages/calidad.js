@@ -18,9 +18,9 @@ const Servicios = () => {
             <section className="bg-gradient">
               <div className="text-center space-y-6 p-8 md:p-16 raleway">
 
-                <h2 className="text-2xl text-bold animate-bounce">POLITICA DE CALIDAD AD SERVICE</h2>
+                <h2 className="text-2xl font-bold animate-bounce">POLITICA DE CALIDAD AD SERVICE</h2>
 
-                <div className="lowercase">
+                <div className="lowercase font-bold text-lg ">
                   <p><b className="uppercase">AD SERVICE</b>. ES UNA EMPRESA DEDICADA A OFRECER SERVICIOS DE FABRICACION DEHERRAMIENTAS, REPARACION DE EQUIPOS DE BOMBEO, REPARACION DE CONEXIONESPETROLERAS, Y APORTE DURO EN HERRAMIENTAS DE ROTACION EN SU BASE DEOPERACIONES EN LA PROVINCIA DE MENDOZA.</p>
                   <p>CON ESTA POLITICA NOS COMPROMETEMOS A:
                     <div className="p-12 text-justify space-y-4">
