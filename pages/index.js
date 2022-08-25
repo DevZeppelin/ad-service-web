@@ -9,7 +9,7 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaRecycle, FaUserCog } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
 import GridComponent from "../components/GridComponent";
-import ImageCliente from "../components/ImageClientes";
+import ImageClientes from "../components/ImageClientes";
 
 export default function Home() {
   return (
