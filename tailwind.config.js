@@ -1,5 +1,9 @@
 module.exports = {
     purge: false,
+    content: [
+        './pages/**/*.{html,js}',
+        './components/**/*.{html,js}',
+      ],
     theme: {
         screens: {
             'md': '850px',
@@ -7,9 +11,7 @@ module.exports = {
         extend: {
             colors : {
                 primary : '#FFF',
-                secundary: '#353B48',
-                red: '#FB0000',
-                lightRed: '#E83838',
+                secundary: '#353B48',                
                 gray: '#545454',
                 lightGray: '#ADADAD',
                 darkGray: '#1d1d1d',

@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Link from "next/link"
-import NextLink from "next/link"
+import Link from "next/link";
+import NextLink from "next/link";
 /* import Link from "next/dist/client/link"; */
 
 import Layout from "../components/Layout";
@@ -9,6 +9,7 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaRecycle, FaUserCog } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
 import GridComponent from "../components/GridComponent";
+import ImageCliente from "../components/ImageCliente";
 
 export default function Home() {
   return (
@@ -46,50 +47,53 @@ export default function Home() {
         </section>
         <section>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8 md:m-24 text-center fadeIn element">
-              <div className="my-auto font-bold flex">
-                <div className="w-3 h-32 bg-dgreen my-auto"></div>
-                <p className="text-lg m-6">Contamos con una amplia variedad de servicios en diferentes rubros: Petróleo, Agua, Agro y Bodega</p>
-              </div>
-                  <GridComponent
-                    name="REPARACION DE CONEXIONES API Y ESPECIALES"
-                    src="0001.png"
-                  />
-                  <GridComponent
-                    name="APORTE DURO EN FRESAS Y ZAPATOS"
-                    src="0002.png"
-                  />
-                  <GridComponent
-                    name="RECTIFICADO DE FRESAS, ZAPATOS, ESTABILIZADORES"
-                    src="0003.png"
-                  />
-                  <GridComponent
-                    name="FABRICACION DE HERAMIENTAS ▶"
-                    src="0004.png"
-                  />
-                  <GridComponent
-                    name="Elevadores, Reducciones, Fresas, Estabilizadores."
-                    src="0005.png"
-                  />
-                  <GridComponent name="MECANIZADO GENERAL" src="0006.png" />
-                  <GridComponent
-                    name="GRANALLADO CON MICROESFERAS DE VIDRIO"
-                    src="0007.png"
-                  />
-                  <GridComponent
-                    name="MANTENIMIENTO DE EQUIPOS DE BOMBEO"
-                    src="0008.png"
-                  />
-                  <GridComponent name="SERVICIO DE CONTROL DE CALIDAD PARA EMPRESAS" src="0009.png" />
-                  <GridComponent name="LOGISTICA" src="0010.png" />
-              <div className="m-6 space-y-4 md:space-y-4 text-center my-auto element">
-                <h2 className="font-bold text-xl">Más sobre nuestros servicios</h2>
-                <p>
-                  Para ver una lista completa de nuestros servicio entrá acá:
-                </p>
-                <NextLink href="/servicios">
-                    <button className="btn">Servicios</button>
-                </NextLink>
-              </div>
+            <div className="my-auto font-bold flex">
+              <div className="w-3 h-32 bg-dgreen my-auto"></div>
+              <p className="text-lg m-6">
+                Contamos con una amplia variedad de servicios en diferentes
+                rubros: Petróleo, Agua, Agro y Bodega
+              </p>
+            </div>
+            <GridComponent
+              name="REPARACION DE CONEXIONES API Y ESPECIALES"
+              src="0001.png"
+            />
+            <GridComponent
+              name="APORTE DURO EN FRESAS Y ZAPATOS"
+              src="0002.png"
+            />
+            <GridComponent
+              name="RECTIFICADO DE FRESAS, ZAPATOS, ESTABILIZADORES"
+              src="0003.png"
+            />
+            <GridComponent name="FABRICACION DE HERAMIENTAS ▶" src="0004.png" />
+            <GridComponent
+              name="Elevadores, Reducciones, Fresas, Estabilizadores."
+              src="0005.png"
+            />
+            <GridComponent name="MECANIZADO GENERAL" src="0006.png" />
+            <GridComponent
+              name="GRANALLADO CON MICROESFERAS DE VIDRIO"
+              src="0007.png"
+            />
+            <GridComponent
+              name="MANTENIMIENTO DE EQUIPOS DE BOMBEO"
+              src="0008.png"
+            />
+            <GridComponent
+              name="SERVICIO DE CONTROL DE CALIDAD PARA EMPRESAS"
+              src="0009.png"
+            />
+            <GridComponent name="LOGISTICA" src="0010.png" />
+            <div className="m-6 space-y-4 md:space-y-4 text-center my-auto element">
+              <h2 className="font-bold text-xl">
+                Más sobre nuestros servicios
+              </h2>
+              <p>Para ver una lista completa de nuestros servicio entrá acá:</p>
+              <NextLink href="/servicios">
+                <button className="btn">Servicios</button>
+              </NextLink>
+            </div>
           </div>
         </section>
 
@@ -116,58 +120,73 @@ export default function Home() {
               </span>
 
               <Link href="/contacto">
-                  <button className="btn uppercase">
-                    Reservá una visita con nosotros
-                  </button>
+                <button className="btn uppercase">
+                  Reservá una visita con nosotros
+                </button>
               </Link>
             </div>
           </div>
         </section>
 
         <section>
+          <div className="text-center py-16 bg-white">
+            <h2 className="text-3xl font-bold pb-12">Nuestros Clientes</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 px-6 md:px-40 my-0">
+
+            <ImageCliente src="c1.jpg" />
+            <ImageCliente src="c2.png" />
+            <ImageCliente src="c3.png" />
+            <ImageCliente src="c5.png" />
+            <ImageCliente src="c4.jpg" />
+            <ImageCliente src="c6.png" />
+            <ImageCliente src="c7.jpg" />
+
+            </div>
+          </div>
+        </section>
+
+        <section>
           <div className="text-center pt-16">
-            <h2 className="text-3xl font-bold pb-12">¿Por qué elegirnos?</h2>
+            <h2 className="text-3xl font-bold py-12">¿Por qué elegirnos?</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 md:px-32 pb-16 ">
-                <div className="space-y-8 pb-6">
-                  <BsFillPersonCheckFill className="text-6xl text-dgreen mx-auto" />
-                  <h3 className="font-bold">
-                    Valoración de los recursos humanos
-                  </h3>
-                  <p>
-                    Queremos, buscamos y promovemos las buenas relaciones
-                    humanas, tanto sociales como laborales y familiares.
-                    Entendemos el valor de una persona y su historia.
-                  </p>
-                </div>
-                <div className="space-y-8 pb-6">
-                  <FaRecycle className="text-6xl text-dgreen mx-auto" />
-                  <h3 className="font-bold">Cuidado del medio ambiente</h3>
-                  <p>
-                    Nuestras actividades cumplen con la legislación aplicable y
-                    pertinente en materia de calidad, medio ambiente, seguridad
-                    y salud.
-                  </p>
-                </div>
-                <div className="space-y-8 pb-6">
-                  <AiOutlineStar className="text-6xl text-dgreen mx-auto" />
-                  <h3 className="font-bold">
-                    Excelencia de nuestros servicios
-                  </h3>
-                  <p>
-                    Buscamos y perseguimos la excelencia del servicio prestado a
-                    través de los principios de transparencia, honestidad y
-                    responsabilidad.
-                  </p>
-                </div>
-                <div className="space-y-8 pb-6">
-                  <FaUserCog className="text-6xl text-dgreen mx-auto" />
-                  <h3 className="font-bold">Profesionales capacitados</h3>
-                  <p>
-                    Brindamos la eficiencia y calidad exigida por el cliente,
-                    demostrando la capacidad de llevar de manera idónea los
-                    proyectos asignados.
-                  </p>
-                </div>
+              <div className="space-y-8 pb-6">
+                <BsFillPersonCheckFill className="text-6xl text-dgreen mx-auto" />
+                <h3 className="font-bold">
+                  Valoración de los recursos humanos
+                </h3>
+                <p>
+                  Queremos, buscamos y promovemos las buenas relaciones humanas,
+                  tanto sociales como laborales y familiares. Entendemos el
+                  valor de una persona y su historia.
+                </p>
+              </div>
+              <div className="space-y-8 pb-6">
+                <FaRecycle className="text-6xl text-dgreen mx-auto" />
+                <h3 className="font-bold">Cuidado del medio ambiente</h3>
+                <p>
+                  Nuestras actividades cumplen con la legislación aplicable y
+                  pertinente en materia de calidad, medio ambiente, seguridad y
+                  salud.
+                </p>
+              </div>
+              <div className="space-y-8 pb-6">
+                <AiOutlineStar className="text-6xl text-dgreen mx-auto" />
+                <h3 className="font-bold">Excelencia de nuestros servicios</h3>
+                <p>
+                  Buscamos y perseguimos la excelencia del servicio prestado a
+                  través de los principios de transparencia, honestidad y
+                  responsabilidad.
+                </p>
+              </div>
+              <div className="space-y-8 pb-6">
+                <FaUserCog className="text-6xl text-dgreen mx-auto" />
+                <h3 className="font-bold">Profesionales capacitados</h3>
+                <p>
+                  Brindamos la eficiencia y calidad exigida por el cliente,
+                  demostrando la capacidad de llevar de manera idónea los
+                  proyectos asignados.
+                </p>
+              </div>
             </div>
           </div>
         </section>
