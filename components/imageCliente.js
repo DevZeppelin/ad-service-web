@@ -2,8 +2,9 @@ import React from "react";
 
 const ImageCliente = ({src}) => {
   return (
+
     <img
-      src={src}
+      src={ src }
       alt="cliente ad service petróleo y agua"
       height="200"
       width="200"
