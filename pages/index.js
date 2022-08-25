@@ -9,7 +9,7 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaRecycle, FaUserCog } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
 import GridComponent from "../components/GridComponent";
-import ImageCliente from "../components/ImageCliente";
+import ImageCliente from "../components/ImageClientes";
 
 export default function Home() {
   return (
@@ -133,13 +133,13 @@ export default function Home() {
             <h2 className="text-3xl font-bold pb-12">Nuestros Clientes</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 px-6 md:px-40 my-0">
 
-            <ImageCliente src="c1.jpg" />
-            <ImageCliente src="c2.png" />
-            <ImageCliente src="c3.png" />
-            <ImageCliente src="c5.png" />
-            <ImageCliente src="c4.jpg" />
-            <ImageCliente src="c6.png" />
-            <ImageCliente src="c7.jpg" />
+            <ImageClientes src="c1.jpg" />
+            <ImageClientes src="c2.png" />
+            <ImageClientes src="c3.png" />
+            <ImageClientes src="c5.png" />
+            <ImageClientes src="c4.jpg" />
+            <ImageClientes src="c6.png" />
+            <ImageClientes src="c7.jpg" />
 
             </div>
           </div>
