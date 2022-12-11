@@ -6,6 +6,8 @@ import NavBar from "./NavBar";
 import MobileNavBar from "./MobileNavBar";
 import WhatsappIcon from "./WhatsappIcon";
 
+
+
 export default function Layout({ children, classHome, classQuienesSomos, classServicios, classCalidad, classContacto }) {
   const [open, setOpen] = useState(false);
 
@@ -13,6 +15,8 @@ export default function Layout({ children, classHome, classQuienesSomos, classSe
     e.preventDefault();
     setOpen(!open);
   };
+
+  
 
   return (
     <div>

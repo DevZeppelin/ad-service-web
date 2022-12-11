@@ -31,3 +31,50 @@ html {
   display: flex;
   justify-content: center;
   }
+
+
+  /*ANIMATION TO REACT SCROLLING*/
+
+.animate-down {
+  animation-duration: 2s;
+  animation-name: animate-down;
+}
+.animate-right {
+  animation-duration: 2s;
+  animation-name: animate-right;
+}
+
+.animate-appear {
+  animation-duration: 3s;
+  animation-name: animate-appear
+}
+
+
+@keyframes animate-down {
+  0% {
+    opacity: 0%;
+    transform: translate(0,200px)
+  }
+  50%{
+    opacity: 100%;
+  }
+}
+
+@keyframes animate-right {
+  0% {
+    opacity: 0%;
+    transform: translate(200px, 0)
+  }
+  50%{
+    opacity: 100%;
+  }
+}
+
+@keyframes animate-appear {
+  0% {
+    opacity: 0%;   
+  }
+  70%{
+    opacity: 100%;
+  }
+}

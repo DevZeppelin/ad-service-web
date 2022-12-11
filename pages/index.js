@@ -11,7 +11,16 @@ import { AiOutlineStar } from "react-icons/ai";
 import GridComponent from "../components/GridComponent";
 import ImageClientes from "../components/ImageClientes";
 
+
+import { useInView } from 'react-intersection-observer';
+
 export default function Home() {
+
+  const { ref: sectionGrid, inView: SectionGridVisible } = useInView();
+  const { ref: cartelFixed, inView: CartelFixedVisible } = useInView();
+  const { ref: elegirnos, inView: elegirnosVisible } = useInView();
+  const { ref: clientes, inView: clientesVisible } = useInView();
+
   return (
     <div>
       <Head>
@@ -45,7 +54,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section>
+        <section ref={sectionGrid} className={SectionGridVisible ? "animate-appear" : ""}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8 md:m-24 text-center fadeIn element">
             <div className="my-auto font-bold flex">
               <div className="w-3 h-32 bg-dgreen my-auto"></div>
@@ -100,7 +109,7 @@ export default function Home() {
         <section>
           <div className="p-8 md:p-32 py-32  font-bold text-black text-center bg-cover bg-hero2 bg-fixed grid grid-cols-1 md:grid-cols-2">
             <div></div>
-            <div className="space-y-6 bg-lgreen bg-opacity-50 p-12 rounded-2xl">
+            <div ref={cartelFixed} className={`${CartelFixedVisible ? "animate-right" : ""} space-y-6 bg-lgreen bg-opacity-80 p-12 rounded-2xl`}>
               <h2 className="text-3xl fadeIn">
                 Empresa de servicios de Petróleo y Agua
               </h2>
@@ -128,7 +137,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section ref={clientes} className={clientesVisible ? "animate-appear" : ""}>
           <div className="text-center py-16 bg-white">
             <h2 className="text-3xl font-bold pb-12">Nuestros Clientes</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 px-6 md:px-40 my-0">
@@ -148,7 +157,7 @@ export default function Home() {
         <section>
           <div className="text-center pt-16">
             <h2 className="text-3xl font-bold py-12">¿Por qué elegirnos?</h2>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 md:px-32 pb-16 ">
+            <div ref={elegirnos} className={`${elegirnosVisible ? "animate-down" : ""} grid grid-cols-1 md:grid-cols-4 gap-12 px-12 md:px-32 pb-16`}>
               <div className="space-y-8 pb-6">
                 <BsFillPersonCheckFill className="text-6xl text-dgreen mx-auto" />
                 <h3 className="font-bold">
