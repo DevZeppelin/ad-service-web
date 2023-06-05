@@ -24,16 +24,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>AD Service - Petróleo y agua</title>
+        <title>AD Service - Petróleo</title>
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="ad service, agua, petróleo, servicios petróleo y agua, mendoza, argentina"
+          content="ad service, petróleo, industria petróleo, servicios petróleo y agua, mendoza, argentina"
         />
         <meta
           name="keywords"
-          content="ad service, agua, petróleo, servicios petróleo y agua, mendoza, argentina"
+          content="ad service, petróleo, industria petróleo, servicios petróleo y agua, mendoza, argentina"
         />
         <meta name="author" content="Gino Pietrobon" />
       </Head>
@@ -59,8 +59,7 @@ export default function Home() {
             <div className="my-auto font-bold flex">
               <div className="w-3 h-32 bg-dgreen my-auto"></div>
               <p className="text-lg m-6">
-                Contamos con una amplia variedad de servicios en diferentes
-                rubros: Petróleo, Agua, Agro y Bodega
+                Contamos con una amplia variedad de servicios, pero nuestra especialidad es la industria del Petróleo.
               </p>
             </div>
             <GridComponent
@@ -111,7 +110,7 @@ export default function Home() {
             <div></div>
             <div ref={cartelFixed} className={`${CartelFixedVisible ? "animate-right" : ""} space-y-6 bg-lgreen bg-opacity-80 p-12 rounded-2xl`}>
               <h2 className="text-3xl fadeIn">
-                Empresa de servicios de Petróleo y Agua
+                Empresa de servicios de Petróleo
               </h2>
 
               <span className="text-base">
