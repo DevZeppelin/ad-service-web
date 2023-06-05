@@ -56,7 +56,7 @@ const SectionWelcome = () => {
                   <img src="01.webp" alt="" />
                 </div>
                 <div className="slide">
-                  <img src="02.webp" alt="" />
+                  <img src="02.png" alt="" />
                 </div>
                 <div className="slide">
                   <img src="03.png" alt="" />
