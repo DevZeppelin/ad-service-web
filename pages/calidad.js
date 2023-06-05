@@ -60,7 +60,7 @@ const Servicios = () => {
               <div className="lowercase text-lg space-y-4">
               <li>
                     BRINDAR SERVICIOS QUE CUMPLAN CON LOS REQUISITOS APLICABLES,
-                    LEGALES, YOTROS REQUISITOS.
+                    LEGALES, Y OTROS REQUISITOS.
                   </li>
                   <li>
                     PROPORCIONAR EL MARCO DE REFERENCIA PARA EL ESTABLECIMIENTO

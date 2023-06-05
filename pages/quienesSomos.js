@@ -19,7 +19,7 @@ const QuienesSomos = () => {
               <h2 className="text-2xl font-extrabold">Nuestra empresa</h2>
               <div className="bg-dgreen w-32 h-1 mx-auto"></div>
               <p>
-                <b>AD Service - Petróleo y agua</b>
+                <b>AD Service - Servicios para la industria del Petróleo</b>
                 <p>
                   Somos una empresa con personal calificado con más de 15 años en el rubro del petróleo, fabricando herramientas para distintos sectores industriales.</p>
                 <p>Nos caracterizamos por el trabajo en equipo y alto compromiso laboral.
