@@ -29,7 +29,7 @@ const SectionWelcome = () => {
         <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-6 md:px-24 bg-lightGray background-overlay">
           <div className="first-block space-y-4 md:space-y-5 p-8 my-auto bg-white z-40 opacity-70 md:opacity-100 h-full">
             <h1 className="font-extrabold text-xl md:text-4xl">
-              EXPERTOS EN PETRÓLEO Y AGUA
+              EXPERTOS EN PETRÓLEO
             </h1>
             <div className="h-1 w-56 bg-dgreen mx-auto"></div>
             <div className="text-base space-y-8 py-4">

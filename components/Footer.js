@@ -19,7 +19,7 @@ const Footer = () => {
                   className="mx-auto"
                 />
                 <p className="text-lgreen text-xl mt-4 font-bold text-center">
-                  Petróleo y agua
+                  Petróleo
                 </p>
               </a>
             </Link>
