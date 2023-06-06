@@ -21,7 +21,9 @@ const Servicios = () => {
 
               <ul className="space-y-6 raleway">
                 <ul className="text-justify space-y-4">
-                  <h3 className="text-2xl pt-6 animate-bounce">SERVICIO PETRÓLEO</h3>
+                  <h3 className="text-2xl pt-6 animate-bounce">
+                    SERVICIO PETRÓLEO
+                  </h3>
 
                   <div className="lowercase space-y-3">
                     <li>• FABRICACION DE HERRAMIENTAS</li>
@@ -33,7 +35,9 @@ const Servicios = () => {
                       <li>• FRESA PLANA (FLAT BOTTOM JUNK MILL)</li>
                       <li>• FRESA CONICA (CONIC MILLS)</li>
                       <li>• FRESA PILOTO (PILOT MILL)</li>
-                      <li>• FRESA PLANA CON ESTABILIZADOR (BLADED JUNK MILL)</li>
+                      <li>
+                        • FRESA PLANA CON ESTABILIZADOR (BLADED JUNK MILL)
+                      </li>
                       <li>
                         • PERCADOR SERIE 70 Y SERIE 150 (OVERSHOT S70 AND S150)
                       </li>
@@ -54,50 +58,21 @@ const Servicios = () => {
                     <li>• LOGISTICA 24HS</li>
                   </div>
                 </ul>
-
-                <ul className="text-justify space-y-4">
-                  <h3 className="text-2xl pt-6 animate-bounce">SERVICIO AGRO</h3>
-                  <div className="lowercase space-y-3">
-                    <li>• EXTRACCION Y COLOCACION DE BOMBAS DE PROFUNDIDAD</li>
-                    <li>• MANTENIMIENTO DE ELECTROBOMBAS SUMERGIBLES</li>
-                    <li>• MANTENIMIENTO DE BOMBAS DE EJE</li>
-                    <li>
-                      • VENTA DE EQUIPOS DE BOMBEO NUEVOS Y REACONDICIONADOS
-                      GARANTIDOS
-                    </li>
-                    <li>• ROSCADO DE CAÑERIA</li>
-                    <li>• FABRICACION DE FILTROS</li>
-                    <li>• METALURGIA</li>
-                    <li>• LOGISTICA 24HS</li>
-                  </div>
-                </ul>
-
-                <ul className="text-justify space-y-4">
-                  <h3 className="text-2xl pt-6 animate-bounce">SERVICIO BODEGA</h3>
-                  <div className="lowercase space-y-3">
-                    <li>• REPARACION DE TAMIZ</li>
-                    <li>• REPARACION DE BOMBAS A TORNILLO</li>
-                    <li>• REPARACION DE REDUCTORES</li>
-                    <li>• ENDEREZADO DE SIN FIN</li>
-                    <li>• MANTENIMIENTOS DE BOMBAS EN GRAL</li>
-                    <li>• TORNERIA Y FRESADO GRAL</li>
-                    <li>• METALURGIA</li>
-                    <li>• LOGISTICA 24HS</li>
-                  </div>
-                </ul>
               </ul>
+
+                
             </div>
             <div className="mx-12 md:mx-32 mt-8 text-center fadeIn element space-y-4">
               <h2 className="text-3xl text-left pb-4">Trabajos</h2>
-              <GridComponent name="Estabilizador Recto" src="/s-1-estabilizador-recto.png" />
+              
               <GridComponent name="Fresa Plana" src="/s-2-fresa-plana.png" />
               <GridComponent name="Aporte Duro" src="/s-3-aporte-duro.png" />
-              <GridComponent name="Cupero Tamiz (Bodega)" src="/s-4-cuerpo-tamiz.png" />
+              
               <GridComponent name="Sustitutos" src="/s-5-sustitutos.png" />
-              <GridComponent name="Piezas varias" src="/s-6-piezas-varias.png" />
+              
               <Link href="trabajos">
                 <div className="rounded-lg p-8 text-xl my-auto btn m-8">
-                 Ver más Fotos de trabajos
+                  Ver más Fotos de trabajos
                 </div>
               </Link>
             </div>
